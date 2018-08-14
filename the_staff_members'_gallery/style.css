@@ -1,0 +1,106 @@
+body {
+  font-family : sans-serif;
+}
+
+#gallery {
+  margin-top   : -80px;
+  margin-left  : auto;
+  margin-right : auto;
+  width        : 996px;
+}
+
+
+
+#leftColumn {
+  width     : 320px;
+  height    : 320px;
+  float     : left;
+  transform : rotate(135deg);
+}
+
+#centerColumn {
+  width       : 320px;
+  height      : 320px;
+  margin-top  : 108px;
+  margin-left : 13px;
+  float       : left;
+  transform   : rotate(45deg);
+}
+
+#rightColumn {
+  width     : 320px;
+  height    : 320px;
+  float     : right;
+  transform : rotate(135deg);
+}
+
+
+
+.leftContainer {
+  width  : 160px;
+  height : 160px;
+  float  : left;
+}
+
+.rightContainer {
+  width  : 160px;
+  height : 160px;
+  float  : right;
+}
+
+
+
+.person {
+  width    : 150px;
+  height   : 150px;
+  position : relative;
+  top      : 8px;
+  left     : 8px;
+  border   : 1px solid Gainsboro;
+}
+
+
+
+#buttons {
+  width        : 700px;
+  margin-left  : auto;
+  margin-right : auto;
+  display      : table;
+  padding-top  : 100px;
+}
+
+#leftButton,
+#rightButton {
+  display : inline-block;
+  margin  : 0px 10px 0px 10px;
+}
+
+#rightButton a {
+  background-color : #5c50be;
+  color            : white;
+}
+
+#buttons a {
+  width           : 300px;
+  height          : 50px;
+  border-radius   : 30px;
+  border          : 1px solid #5c50be;
+  text-align      : center;
+  text-decoration : none;
+  vertical-align  : middle;
+  display         : table-cell;
+  font-size       : 23px;
+}
+
+
+
+#containerPhoneIcon img {
+  width         : 100px;
+  height        : 100px;
+  border-radius : 50px;
+  position      : relative;
+  top           : 220px;
+  left          : 1020px;
+  z-index       : 999;
+  box-shadow    : -7px 1px 61px -15px #000000;
+}
